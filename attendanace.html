@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attendance Calculator (CHUTTI)</title>
+  <link rel="stylesheet" href="attendance.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Attendance Calculator</h1>
+    <form id="form">
+      <label> Desired Attendance %:</label>
+      <div><input type="number" id="desired" required></div>
+
+      <label> Lectures Attended:</label>
+      <div><input type="number" id="attended" required></div>
+
+      <label> Total Lectures Taken:</label>
+      <div><input type="number" id="total" required></div>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+  <script src="attendance.js"></script>
+</body>
+</html>
